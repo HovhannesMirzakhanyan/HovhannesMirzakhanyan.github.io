@@ -39,10 +39,15 @@ ul{
   margin: 0;
 
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 360px) {
   img{
     border-radius: 10%;
-    width: 50px;
+    width: 40px;
     height: auto;
   }
+  ul li{
+  color:green;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 2em;
+}
 }
