@@ -2,7 +2,34 @@
 
 
 body{
+  margin: 0;@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+
+body{
   margin: 0;
+  padding: 0;
+  background-color: #b0931e;
+}
+.container{
+  -webkit-display: flex;
+
+}
+.section1{
+  width: 30%;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
+}
+.section2{
+  width: 70%;
+}
+.div{
+  height: auto;
+  border: 2px solid black;
+}
+img{
+  width: 40%;
+}
+
   padding: 0;
   background-color: #b0931e;
 }
