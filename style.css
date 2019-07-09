@@ -1,45 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
 
 
 body{
   margin: 0;
   padding: 0;
-  background-color: #985454;
+  background-color: #b0931e;
 }
-.heading{
-  width: 700px;
-  margin: auto;
+.container{
   display: flex;
-  justify-content: space-between;
 
 }
-
-h2{
-  display: inline-block;
-  color: #f0f0f0;
-  vertical-align: top;
-  font-family: 'Nanum Gothic', sans-serif;
+.section1{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.section2{
+  width: 70%;
+}
+.div{
+  height: auto;
+  border: 2px solid black;
 }
 img{
-  border-radius: 10%;
-  width: 150px;
-  height: 200px;
-  margin: 0;
-}
-ul li{
-  color:#f0f0f0;
-  font-family: 'Nanum Gothic', sans-serif;
-  line-height: 2em;
-}
-ul li a{
-  text-decoration: none;
-  color: #f0f0f0;
-}
-ul{
-  list-style:none;
-  margin: 0;
-
-}
-th{
-  border: 1px solid black;
+  width: 40%;
 }
