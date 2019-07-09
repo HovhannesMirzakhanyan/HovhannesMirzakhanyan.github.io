@@ -24,6 +24,7 @@ img{
   border-radius: 10%;
   width: 150px;
   height: auto;
+  margin: 0;
 }
 ul li{
   color:#f0f0f0;
@@ -39,9 +40,6 @@ ul{
   margin: 0;
 
 }
-
-
-
-
-
-
+th{
+  border: 1px solid black;
+}
