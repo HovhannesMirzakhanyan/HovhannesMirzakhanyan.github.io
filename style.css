@@ -5,13 +5,13 @@ body{
   background-color: #b0931e;
 }
 .container{
-  -webkit-display: flex;
+  display: flex;
 
 }
 .section1{
   width: 30%;
-  -webkit-display: flex;
-  -webkit-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .section2{
   width: 70%;
