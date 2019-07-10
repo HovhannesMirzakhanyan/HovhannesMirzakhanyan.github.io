@@ -10,9 +10,7 @@ body{
 }
 .section1{
   width: 30%;
-display: -webkit-flex;
-  -webkit-flex-align: center;
-  -webkit-align-items: center;
+
 }
 .section2{
   width: 70%;
@@ -23,6 +21,9 @@ display: -webkit-flex;
 }
 img{
   width: 40%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
 }
 @media only screen and (max-width:600px){
   body{
