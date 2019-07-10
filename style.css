@@ -10,8 +10,7 @@ body{
 }
 .section1{
   width: 30%;
-  display: flex;
-  justify-content: center;
+
 }
 .section2{
   width: 70%;
@@ -25,15 +24,8 @@ img{
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: green;
+    background-color: pink;
   }
-  .container{
-  display: -webkit-flex;
+ 
 
-}
-.section1{
-  width: 30%;
-  display: -webkit-flex;
-  justify-content: center;
-}
 }
