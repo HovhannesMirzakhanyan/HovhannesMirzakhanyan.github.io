@@ -27,4 +27,13 @@ img{
   body{
     background-color: red;
   }
+  .container{
+  display: -webkit-flex;
+
+}
+.section1{
+  width: 30%;
+  display: -webkit-flex;
+  justify-content: center;
+}
 }
