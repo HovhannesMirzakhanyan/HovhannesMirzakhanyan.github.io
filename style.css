@@ -23,7 +23,7 @@ body{
 img{
   width: 40%;
 }
-@media only screen and (min-width:460px){
+@media only screen and (max-width:460px){
   body{
     background-color:red;
 }
