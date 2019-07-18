@@ -63,10 +63,11 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: pink;
+    background-color: yellow;
   }
-  li{
-  margin-left:-40;}
+ li{
+    margin-left: -40px;
+  }
   h2{
   font-size:15px;
   }
