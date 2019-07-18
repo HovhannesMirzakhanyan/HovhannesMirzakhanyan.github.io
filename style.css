@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
 
 body{
   margin: 0;
   padding: 0;
-  background-color: #b0931e;
+  background-color: white;
 }
 .container{
   display: flex;
@@ -12,6 +14,26 @@ body{
   width: 30%;
 
 }
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+
+}
+h4{
+  color: lightblue;
+}
+
+li{
+  word-wrap: break-word;
+  list-style: none;
+  line-height: 30px;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
 .section2{
   width: 70%;
 }
@@ -19,16 +41,27 @@ body{
   height: auto;
   border: 2px solid black;
 }
+.personal_info{
+
+  /* border: 1px solid black; */
+  width: 85%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
 img{
   width: 40%;
   display: block;
 margin-left: auto;
 margin-right: auto;
+border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: pink;
+    background-color: red;
   }
- 
-
 }
