@@ -25,6 +25,7 @@ h4{
   color: lightblue;
 }
 
+
 li{
   word-wrap: break-word;
   list-style: none;
@@ -62,6 +63,11 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: red;
+    background-color: gray;
+  }
+  ul{
+  margin:0;}
+  h2{
+  font-size:15px;
   }
 }
