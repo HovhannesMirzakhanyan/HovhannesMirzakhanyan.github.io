@@ -63,10 +63,10 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: gray;
+    background-color: silver;
   }
-  ul{
-  margin:0;}
+  li{
+  margin-left:-40;}
   h2{
   font-size:15px;
   }
