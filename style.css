@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-
+.mons{
+  font-family: 'Montserrat', sans-serif;
+}
 body{
   margin: 0;
   padding: 0;
@@ -16,6 +18,7 @@ body{
 }
 h2{
   text-align: center;
+
 }
 h3{
   text-align: center;
@@ -24,9 +27,8 @@ h3{
 h4{
   color: lightblue;
 }
-
-
 li{
+
   word-wrap: break-word;
   list-style: none;
   line-height: 30px;
@@ -35,13 +37,29 @@ li a{
   text-decoration: none;
   color: black;
 }
+.skils{
+  border: 1px solid blue;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skils img{
+  width: 30%;
+  height: auto;
+}
+
 .section2{
   width: 70%;
+  border-left: 2px dotted black;
 }
-.div{
+/* .div{
   height: auto;
-  border: 2px solid black;
-}
+
+} */
 .personal_info{
 
   /* border: 1px solid black; */
@@ -54,7 +72,7 @@ margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
-img{
+.profile{
   width: 40%;
   display: block;
 margin-left: auto;
@@ -63,12 +81,9 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: yellow;
+    background-color: lightblue;
   }
- li{
+  li{
     margin-left: -40px;
-  }
-  h2{
-  font-size:15px;
   }
 }
