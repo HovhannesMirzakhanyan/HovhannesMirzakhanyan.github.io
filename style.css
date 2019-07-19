@@ -50,7 +50,11 @@ li a{
 .skils img{
   width: 30%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .section2{
   width: 70%;
@@ -81,7 +85,10 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: lightblue;
+    background-color: white;
+  }
+  h2{
+    font-size:15px;
   }
   li{
     margin-left: -40px;
