@@ -18,24 +18,29 @@ body{
 }
 h2{
   text-align: center;
-
+ font-size: 1.9vw;
 }
 h3{
   text-align: center;
-
+font-size: 1.8vw;
 }
 h4{
   color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
 }
 li{
-
+  font-size: 1.2vw;
   word-wrap: break-word;
   list-style: none;
   line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 li a{
+  font-size: 1.2vw;
   text-decoration: none;
   color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 .skils{
 
@@ -60,7 +65,7 @@ li a{
 
 .personal_info{
 
-  
+
   width: 85%;
   display: block;
 margin-left: auto;
@@ -79,12 +84,12 @@ border-radius: 30px;
 }
 @media only screen and (max-width:600px){
   body{
-    background-color: lightblue;
-  }
-  h2{
-    font-size:12px;
+    /* background-color: lightblue; */
   }
   li{
     margin-left: -40px;
+  }
+  h2{
+    font-size: 12px;
   }
 }
