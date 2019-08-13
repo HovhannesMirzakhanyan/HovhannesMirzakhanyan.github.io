@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Raleway|Roboto&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+height: 64px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+display: inline-block;
+position: absolute;
+left: 24px;
+}
+.logo_txt{
+  font-size: 32px;
+  color: gray;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar{
+  display:flex;
+  right: 8px;
+  position: absolute;
+  margin: 0;
+}
+.navbar li{
+  display: inline-block;
+margin-right: 16px;
+color:  #585757;
+font-family: 'Raleway', sans-serif;
+font-size: 1.7vw;
+}
+.section1{
+  margin: 0;
+  width: 100%;
+  background-color: #cacaca;
+  display: flex;
+  overflow: inherit;
+}
+.image_part{
+  width: 60%;
+  display: inline-block;
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+    margin: 32px 24px auto;
+    margin-bottom: 32px;
+}
+.image_part img{
+  width: 30%;
+  margin: 32px 24px auto;
+}
+.text_part{
+  width: 30%;
+display: inline-block;
+height: 70vh;
+margin: 32px 24px auto;
+}
+.h2{
+  font-family: 'Concert One', cursive;
+  font-size: 3.4vw;
+  font-weight: bold;
+  color: #585757;
+}
+.text_part p{
+font-family: 'Concert One', cursive;
+  font-size: 2vw;
+
+  color: #585757;
+}
+.text_part button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #585757;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-family: 'Concert One', cursive;
+  color: white;
+}
+.section2{
+  display: flex;
+}
+.sec2_img{
+  width: 60%;
+  height: auto;
+  margin: 32px 24px auto;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+.sec2_img img{
+  width: 100%;
+}
+.sec2_img p{
+  font-size: 1.3vw;
+  font-family: 'Roboto', sans-serif;
+}
+.sec2_content{
+  width: 40%;
+  height: auto;
+  margin: 32px 24px auto;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+.sec2_card{
+  width: 100%;
+  display: flex;
+}
+.sec2_card span{
+  margin-left: 15px;
+width: 65%;
+display: inline-block;
+}
+.sec2_card span  h3{
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  color: #585757;
+    font-weight: bold;
+}
+.sec2_card span  p{
+  font-size: 1.3vw;
+  font-family: 'Roboto', sans-serif;
+  color: #585757;
+}
+.sec2_card span  a{
+  font-size: 1.3vw;
+  font-family: 'Roboto', sans-serif;
+  color: blue;
+  text-decoration: none;
+}
+.sec2_card img{
+  height: auto;
+  margin: 16px auto;
+  width: 35%;
+  display:  inline-block;
+}
+.section3{
+  background-color: #cacaca;
+}
+.sec3_txt{
+  width: 100%;
+  text-align: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.sec3_cards{
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  border-radius: 20px;
+  margin-bottom: 32px;
+  width: 30%;
+  margin-right: 32px;
+  background-color: white;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.container{
+  margin-left: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.container p{
+  font-size: 1.2vw;
+}
+.container h3{
+  font-size: 1.4vw;
+}
+.container h4{
+  font-size: 1.3vw;
+}
